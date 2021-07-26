@@ -1,0 +1,36 @@
+
+
+.wrapper h1 {
+	color: #00DF83;
+}
+.wrapper h1 span {
+	font-size: 0.8em;
+	color: #FFF;
+}
+
+.content {
+	background-color: #444;
+	padding: 2em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.addressWrapper, .formWrapper {
+	flex: 0 0 48%;
+	background-color: #222;
+	border-radius: 3px;
+	padding: 1.5em;
+}
+.address {
+	list-style: none;
+}
+.address li + li {
+	margin-top: 0.8em;
+}
+.address i {
+	margin-right: 1em;
+	margin-left: -1.8em;
+}
+.address a {
+	color: #FFF;
+}

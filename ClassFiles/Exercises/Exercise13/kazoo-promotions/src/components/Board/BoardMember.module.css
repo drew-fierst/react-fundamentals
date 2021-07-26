@@ -1,0 +1,25 @@
+.detail {
+  border: 1px solid #9999EE;
+  border-radius: 4px;
+  background: #F8F8F8;
+  padding: 1.5em;
+	margin-bottom: 2em;
+	color: #222;
+}
+
+.detail:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.detail img {
+  float: left;
+  width: 30%;
+  height: auto;
+}
+
+.bio {
+  float: right;
+  width: 60%;
+}

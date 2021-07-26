@@ -1,0 +1,13 @@
+{
+    "name": "class_api_server",
+    "description": "This file identifies any dependencies used with the NodeJS server.  No need to modify this.",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node ApiServer.js"
+    },
+    "private": true,
+    "dependencies": {
+        "express": "4.16.4",
+        "body-parser": "1.18.3"
+    }
+}

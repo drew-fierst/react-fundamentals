@@ -1,0 +1,51 @@
+.app {
+  max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.app header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.app header nav ul li {
+	display: inline-block;
+	margin-right: 0.3em;
+}
+
+.app header nav a {
+	display: inline-block;
+	padding: 0.8em 1.2em;
+	text-decoration: none;
+	color: #111;
+	border-radius: 4px;
+	transition: all 0.2s ease-in-out;
+}
+
+.app header nav a:hover,
+.app header nav a:active {
+	background-color: #F8F8FF;
+	color: #000;
+}
+
+.app > button {
+	color: white;
+	padding: 0.5em 0.8em;
+	border: 1px solid #888;
+	border-radius: 3px;
+}
+.app > button.off {
+	background-color: green;
+}
+.app > button.off:hover {
+	background-color: LimeGreen;
+}
+.app > button.on {
+  background-color: red;
+}
+.app > button.on:hover {
+  background-color: OrangeRed;
+}

@@ -1,0 +1,25 @@
+
+.wrapper {
+	margin-bottom: 5em;
+}
+.wrapper h1 {
+	color: #00DF83;
+}
+.wrapper h1 span {
+	font-size: 0.8em;
+	color: #FFF;
+}
+
+.button {
+  background-color: #000098;
+  color: #EEE;
+  border: 1px solid #000042;
+  border-radius: 4px;
+  padding: 0.8em 1.2em;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2222AF;
+  color: #FFF;
+}

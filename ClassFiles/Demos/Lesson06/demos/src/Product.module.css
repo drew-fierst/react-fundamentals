@@ -1,0 +1,17 @@
+.productCard {
+	border: 1px solid #CCCCEE;
+	border-radius: 4px;
+	padding: 1em;
+	margin: 2em 0;
+	width: 100%;
+	background-color: #EEEEFF;
+	box-shadow: 3px 3px 5px #DDD;
+}
+
+@media screen and (min-width: 27em) {
+	.productCard {
+		width: 350px;
+		display: inline-block;
+		margin-right: 1em;
+	}
+}

@@ -1,0 +1,2 @@
+export const SELECT_ARTIST = 'SELECT_ARTIST';
+export const CLEAR_ARTIST = 'CLEAR_ARTIST';

@@ -1,0 +1,116 @@
+
+.container h1 {
+	color: #00DF83;
+}
+.container h1 span {
+	font-size: 0.8em;
+	color: #FFF;
+}
+
+.wrapper {
+	background: rgba(0, 0, 0, 0.6);
+	padding: 0 3em 3em;
+}
+
+.detail h2 {
+	color: #00DF83;
+}
+.detail h2 span {
+	font-size: 0.8em;
+	color: #FFF;
+}
+.detail img {
+	display: block;
+	width: 100%;
+}
+
+.taglist {
+	list-style: none;
+	float: left;
+	margin: 0 0 0 -3em;
+	padding: 0;
+}
+.taglist li {
+	float: left;
+	padding: 0 12px 0 28px;
+	line-height: 42px;
+	color: #FFF;
+}
+.taglist li:after {
+	position: absolute;
+	content: '';
+	margin-left: 12px;
+	border-top: 21px solid transparent;
+	border-bottom: 21px solid transparent;
+	border-left: 14px solid #888;
+}
+.taglist li:nth-child(1) {
+	color: #00DF83;
+	text-transform: uppercase;
+	background: #333;
+}
+.taglist li:nth-child(1):after {
+	border-left: 14px solid #333;
+}
+.taglist li:nth-child(2) {
+	background: #444;
+}
+.taglist li:nth-child(2):after {
+	border-left: 14px solid #444;
+}
+.taglist li:nth-child(3) {
+	background: #555;
+}
+.taglist li:nth-child(3):after {
+	border-left: 14px solid #555;
+}
+.taglist li:nth-child(4) {
+	background: #666;
+}
+.taglist li:nth-child(4):after {
+	border-left: 14px solid #666;
+}
+
+
+.social {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-top: 4px solid #000098;
+}
+.social li {
+	padding: 0.75em 0.8em;
+	color: #FFF
+}
+.social li span {
+	margin-right: 2em;
+	color: #00DF83;
+}
+.social li span i {
+	margin-right: 0.5em;
+}
+
+.connect {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+.connect li {
+	display: inline-block;
+}
+.connect li i {
+	cursor: pointer;
+}
+.connect li i:hover {
+	color: #00DF83;
+}
+
+.description {
+	color: #FFF;
+	overflow: hidden;
+	padding: 0 1em 1em;
+}
+.description p {
+	margin: 0;
+}

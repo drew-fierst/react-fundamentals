@@ -1,0 +1,13 @@
+.wrapper h1 {
+	color: #00DF83;
+}
+.wrapper h1 span {
+	font-size: 0.8em;
+	color: #FFF;
+}
+
+.content {
+	background: rgba(0, 0, 0, 0.8);
+	padding: 1em;
+	margin-bottom: 3em;
+}

@@ -1,0 +1,16 @@
+.wrapper {
+	text-align: right;
+}
+
+.wrapper a {
+	color: #FFF;
+}
+
+.wrapper button {
+	background: none;
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+	font-family: 'Open sans';
+	font-size: 1rem;
+}

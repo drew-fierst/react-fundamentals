@@ -1,0 +1,25 @@
+.memberList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #111;
+}
+
+p {
+	text-align: center;
+}
+
+p a {
+	
+	display: inline-block;
+	padding: 0.4em 0.6em;
+	background-color: #DDF;
+	border-radius: 4px;
+	
+}

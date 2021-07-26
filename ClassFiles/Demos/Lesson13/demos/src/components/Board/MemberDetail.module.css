@@ -1,0 +1,66 @@
+.memberDetail {
+  margin: 20px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  text-align: center;
+  position: fixed;
+  z-index: 200;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 30%;
+  left: 20%;
+  width: 60%;
+  cursor: pointer;
+}
+
+.modalOpen {
+	display: block;
+}
+
+.modalClosed {
+  display: none;
+}
+
+.memberDetail img {
+	max-width: 300px;
+	float: right;
+}
+
+.jobTitle {
+  margin: 16px 0;
+  color: #ccc;
+}
+
+.instructions {
+  text-align: center;
+}
+
+.edit {}
+
+.edit label {
+  display: block;
+  color: grey;
+}
+
+.edit button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  color: #fa923f;
+}
+
+.edit button:hover,
+.edit button:active {
+  color: #521751;
+}
+
+.edit button.Delete {
+  color: red;
+}
+
+.edit button.Delete:hover,
+.edit button.Delete:active {
+  color: darkred;
+}

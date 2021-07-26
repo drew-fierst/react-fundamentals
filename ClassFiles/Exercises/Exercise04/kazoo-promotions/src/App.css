@@ -1,0 +1,40 @@
+.App {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.button {
+  background-color: #000098;
+  color: #EEE;
+  border: 1px solid #000042;
+  border-radius: 4px;
+  padding: 0.8em 1.2em;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2222AF;
+  color: #FFF;
+}
+
+.board-member-detail {
+	border: 1px solid #9999EE;
+	border-radius: 4px;
+	background: #F8F8F8;
+	padding: 1.5em;
+	margin-bottom: 2em;
+}
+.board-member-detail:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.board-member-detail img {
+	float: left;
+	width: 30%;
+	height: auto;
+}
+.bio {
+	float: right;
+	width: 60%;
+}

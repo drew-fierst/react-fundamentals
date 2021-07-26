@@ -1,0 +1,24 @@
+.app {
+  max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.app > button {
+	color: white;
+	padding: 0.5em 0.8em;
+	border: 1px solid #888;
+	border-radius: 3px;
+}
+.app > button.off {
+	background-color: green;
+}
+.app > button.off:hover {
+	background-color: LimeGreen;
+}
+.app>button.on {
+  background-color: red;
+}
+.app>button.on:hover {
+  background-color: OrangeRed;
+}

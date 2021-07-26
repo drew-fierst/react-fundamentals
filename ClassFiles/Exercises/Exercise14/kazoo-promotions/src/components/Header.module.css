@@ -1,0 +1,58 @@
+
+.header {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header ul:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.header ul li {
+	float: left;
+}
+.header ul li a {
+	text-decoration: none;
+	text-align: center;
+	width: 90px;
+	height: 80px;
+	display: block;
+	color: #888;
+	text-transform: uppercase;
+}
+.header ul li:not(:first-child) a p {
+	position: relative;
+	top: 10px;
+}
+.header ul li:not(:first-child) a i {
+	font-size: 22px;
+	position: relative;
+	top: 16px;
+}
+.header ul li:not(:first-child):hover {
+	background-color: #777;
+}
+.header ul li:not(:first-child):hover a {
+	color: #FFF;
+}
+
+.header ul li:first-child {
+	background: #00DF83;
+	color: #FFF;
+}
+.header ul li:first-child a {
+	font-size: 50px;
+	display: block;
+	color: #FFF;
+	position: relative;
+	top: 6px;
+}
+.header ul li:first-child a i {
+	font-size: 50px;
+}

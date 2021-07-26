@@ -1,0 +1,18 @@
+.enter {
+	max-height: 0;
+}
+.enterActive {
+	max-height: 1500px;
+	transition: max-height 800ms ease;
+	overflow: hidden;
+}
+.exit {
+	max-height: 1500px;
+}
+.exitActive {
+	max-height: 0;
+	transition: max-height 800ms ease;
+	overflow: hidden;
+}
+
+

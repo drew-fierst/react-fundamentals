@@ -1,0 +1,29 @@
+
+.button {
+  border: 1px solid #521751;
+  font: inherit;
+  padding: 8px;
+  background-color: #521751;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: #fa923f;
+}
+
+.enter {
+  opacity: 0;
+}
+.enterActive {
+  opacity: 1;
+  transition: opacity 500ms ease-out;
+}
+.exit {
+  opacity: 1;
+}
+.exitActive {
+  opacity: 0;
+  transition: opacity 500ms ease-out;
+}
